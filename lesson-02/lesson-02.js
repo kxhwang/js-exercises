@@ -27,3 +27,16 @@ const age = currentYear - birthYear;
 const greeting = `Hello, my name is ${fullName} and I'm ${age} years old.`
 
 console.log(greeting);
+
+// testing function without return value
+function incrementOdd() {
+    if (number % 2 === 0){
+        number++;
+    } else {
+        number--;
+    }
+}
+incrementOdd();
+//const newNumber = incrementOdd();
+//console.log("new number is " + newNumber);
+console.log("number is " + number);
